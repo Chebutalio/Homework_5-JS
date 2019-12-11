@@ -1,0 +1,12 @@
+.Game {
+    text-align: center;
+    user-select: none;
+}
+.Game .wrapper {
+    padding: 1rem;
+    background-color: #A8E7BF;
+    margin-bottom: 1rem;
+}
+.Game .bestScore {
+    margin: 1rem 0;
+}

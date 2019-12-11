@@ -1,0 +1,13 @@
+.difficulty-level {
+    background-color: #EEE;
+    color: #333;
+    font-weight: 900;
+    font-size: 3vmin;
+    outline: none;
+    margin: 2vmin 1vmin;
+}
+.difficulty-level.selected, .difficulty-level:hover, .difficulty-level:focus {
+    background-color: #333;
+    color: #EEE;
+    font-weight: 900;
+}

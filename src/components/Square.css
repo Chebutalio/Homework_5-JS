@@ -1,0 +1,55 @@
+.Square {
+    width: 7vmin;
+    height: 7vmin;
+    font-size: 5vmin;
+    font-weight: 900;
+    line-height: 5vmin;
+    background: #EEE;
+    border: 1px inset #DDD;
+    cursor: default;
+    display: inline-block;
+    outline: none;
+}
+
+.Square.unrevealed {
+    border: 5px outset #DFDFDF;
+}
+
+.Square.unrevealed:active {
+    background: #999;
+    border: 1px inset #FFF;
+}
+
+.Square.emoji {
+    font-size: 3vmin;
+}
+.Square.revealed, .Square.mine {
+    background: #DDD;
+}
+.Square.mine.clicked {
+    background-color: #A00;
+}
+.Square.number1 {
+    color: #00F;
+}
+.Square.number2 {
+    color: #008000;
+}
+.Square.number3 {
+    color: #F00;
+}
+.Square.number4 {
+    color: #00008B;
+}
+.Square.number5 {
+    color: #8B0000;
+}
+.Square.number6 {
+    color: #008080;
+}
+.Square.number7 {
+    color: #333;
+}
+.Square.number8 {
+    color: #FF1493;
+}
